@@ -1,7 +1,8 @@
-# callback-form
+# Callback form
 
 <script src="callback-form.js"></script>
 
+```javascript
 $('a.callback').callbackForm({
     url: '/send.php',
     title: 'Callback',
@@ -13,3 +14,4 @@ $('a.callback').callbackForm({
     sendButton: {title: 'Send'},
     ya: 'yandexXXXXXX'
 });
+```
